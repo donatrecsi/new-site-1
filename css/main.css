@@ -18,6 +18,18 @@ body {
 	height: 100vh;
 }
 
+.banner-text {
+	color: rgba(232,166,66,1.00);
+	font-size: 1.75rem;
+	letter-spacing: 5px;
+}
+
+.text-banner {
+	color: rgba(200,180,82,1.00);
+	font-size: 3rem;
+	letter-spacing: 10px;
+}
+
 
 h2 {
   color: black;
@@ -26,6 +38,14 @@ h2 {
   overflow: hidden;
   animation: animtext 4s steps(80, end); 
   transition: all cubic-bezier(0.1, 0.7, 1.0, 0.1);
+}
+
+h3 {
+	color: rgba(232,166,66,1.00);
+}
+
+img {
+	border-radius: 10px;
 }
 
 .fa-twitter {
@@ -39,3 +59,7 @@ h2 {
   } 
 }
 
+.banner-text {
+}
+.text-banner {
+}
