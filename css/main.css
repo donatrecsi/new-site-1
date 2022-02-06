@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
 
 * {
@@ -31,6 +30,7 @@ body {
 }
 
 
+
 h2 {
   color: black;
 	width: 100%;
@@ -59,7 +59,12 @@ img {
   } 
 }
 
-.banner-text {
+@media screen and (max-width: 576px) {
+	.text-banner {
+		font-size: 1.7rem;
+		letter-spacing: 1px;
+	}
+	
 }
-.text-banner {
+.text-h1 {
 }
