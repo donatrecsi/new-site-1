@@ -13,7 +13,7 @@ body {
 
 .main {
 	background: url("../img/img/kezdokep3.jpg") fixed no-repeat center;
-	max-width: 100vw;
+	max-width: 100%;
 	height: 100vh;
 }
 
@@ -30,8 +30,13 @@ body {
 }
 
 .footer-text {
-		color: rgba(232,166,66,1.00); 
-	}
+	color: rgba(232,166,66,1.00); 
+}
+
+p {
+	font-size: 1.4rem;
+	line-height: 33px
+}
 
 
 
@@ -70,16 +75,26 @@ img {
 	}
 	
 	.main {
-	height: 400px;
+	height: 600px;
 	background-size: cover;
-	background-position: center;
   	display: table;
   	text-align: center;
-    width: 100vw;
+    width: 100%;
 	}
-
-	
-	
 }
-.text-h1 {
+
+/* -------------------
+
+	  Grafen CSS 
+
+----------------------*/
+	
+.article-1 {
+	background-color:rgba(26,26,36,0.72);
+	border-radius: 10px;
+	margin: 0px 5px 5px;
+	padding: 20px;
+	opacity: 0.9;
+	/*-webkit-box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 9px 12px 15px 5px rgba(0,0,0,0); 
+	box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 9px 12px 15px 5px rgba(0,0,0,0);*/
 }
