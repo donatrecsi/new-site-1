@@ -12,9 +12,13 @@ body {
 }
 
 .main {
-	background: url("../img/img/kezdokep3.jpg") fixed no-repeat center;
-	max-width: 100%;
-	height: 100vh;
+	background-image: url("../img/img/keramia/oldalfokep.png");
+	height: 700px;
+	background-size: cover;
+	background-position: center;
+  	display: table;
+  	text-align: center;
+    width: 100vw;
 }
 
 .banner-text {
@@ -75,11 +79,21 @@ img {
 	}
 	
 	.main {
-	height: 600px;
+	background-image: url("../img/img/keramia/oldalfokep.png");
+	height: 200px;
 	background-size: cover;
+	background-position: center;
   	display: table;
   	text-align: center;
-    width: 100%;
+    width: 100vw;
+	}
+	
+	.article-1 {
+		text-align: center;
+	}
+	
+	.article-1 p {
+		line-height: 30px;
 	}
 }
 
@@ -97,4 +111,5 @@ img {
 	opacity: 0.9;
 	/*-webkit-box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 9px 12px 15px 5px rgba(0,0,0,0); 
 	box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 9px 12px 15px 5px rgba(0,0,0,0);*/
+	
 }
