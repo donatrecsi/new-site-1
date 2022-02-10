@@ -85,20 +85,6 @@ img {
   } 
 }
 
-@media screen and (max-width: 576px) {
-	
-	
-	.main {
-	background-image: url("../img/img/keramia/oldalfokep.png") no-repeat;
-	width: 100vw;
-	height: 90px;
-	background-size: cover;
-	background-position: center;
-
-
-
-	}
-	
 
 	
 	.article-1 p {
@@ -106,8 +92,6 @@ img {
 		
 	}
 	
-	
-}
 
 /* -------------------
 
